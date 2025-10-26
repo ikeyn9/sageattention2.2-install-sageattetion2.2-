@@ -6,14 +6,19 @@ torch2.7.1，CUDA12.8，triton3.2
 CUDA把以前的删了，然后去安装
 进入https://developer.nvidia.com/cuda-toolkit  然后在页面中选择Download Now
 <img width="1338" height="632" alt="image" src="https://github.com/user-attachments/assets/35eee477-23b5-43b6-88fd-e1c1fe6b0751" />
-然后点击这个<img width="1296" height="607" alt="image" src="https://github.com/user-attachments/assets/0e50933e-4835-48ee-b946-4c40bd95ba86" />
-我用的12.8.1，应该这两都可以，选择一个下载<img width="667" height="595" alt="image" src="https://github.com/user-attachments/assets/90b1524f-14cb-47c8-836f-1d74a9d58882" />
+然后点击这个
+<img width="1296" height="607" alt="image" src="https://github.com/user-attachments/assets/0e50933e-4835-48ee-b946-4c40bd95ba86" />
+我用的12.8.1，应该这两都可以，选择一个下载
+<img width="667" height="595" alt="image" src="https://github.com/user-attachments/assets/90b1524f-14cb-47c8-836f-1d74a9d58882" />
 
 三、查看版本
 在内置的python里面（ComfyUi\python或者ComfyUI_windows_portable\python_embeded）地址栏输入cmd,然后回车
-在里面输入python -m pip list | findstr torch回车<img width="838" height="137" alt="image" src="https://github.com/user-attachments/assets/06d49283-a188-49bc-b098-8d0e901be867" />
-输入python -m pip list | findstr sage 回车<img width="831" height="44" alt="image" src="https://github.com/user-attachments/assets/63094b9f-49f9-41fb-a2d5-41b1fd1c711b" />
-输入python -m pip list | findstr triton 回车<img width="852" height="44" alt="image" src="https://github.com/user-attachments/assets/f4e75254-c36f-41cc-b71e-a588192d88c3" />
+在里面输入python -m pip list | findstr torch回车
+<img width="838" height="137" alt="image" src="https://github.com/user-attachments/assets/06d49283-a188-49bc-b098-8d0e901be867" />
+输入python -m pip list | findstr sage 回车
+<img width="831" height="44" alt="image" src="https://github.com/user-attachments/assets/63094b9f-49f9-41fb-a2d5-41b1fd1c711b" />
+输入python -m pip list | findstr triton 回车
+<img width="852" height="44" alt="image" src="https://github.com/user-attachments/assets/f4e75254-c36f-41cc-b71e-a588192d88c3" />
 
 如果有的话会显示版本，没有好像是不显示
 
